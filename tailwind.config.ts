@@ -1,3 +1,4 @@
+import { url } from "inspector";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -8,10 +9,8 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
+      
+      
     },
   },
   plugins: [],
